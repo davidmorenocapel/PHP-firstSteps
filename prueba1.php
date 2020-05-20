@@ -1,27 +1,42 @@
 <?php
+
 $platos = [
 
     [
 
         "titulo" => "Spagueti",
-        "comensales" => 2,
+        "num comensales" => 2,
         "tipo plato" => "primero",
-        "ingredientes" => ["pasta" => "80g", "carne picada" => "50g", "tomate" => "10g", "queso rallado" =>"10g" ]
+        "ingredientes" => [
+
+        "pasta" => "80g",
+        "carne picada" => "50g",
+        "tomate" => "10g",
+        "queso rallado" =>"10g"
+        ]
 
     ],
 
     [
         "titulo" => "Entrecot a la Pimineta",
-        "comensales" => 1,
+        "num comensales" => 1,
         "tipo de plato" => "segundo",
-        "ingredientes" => ["Carne" => "250grs","salsa pimienta" => "20gr"]
+        "ingredientes" => [
+
+        "Carne" => "250grs",
+        "salsa pimienta" => "20gr"
+        ]
 
     ],
 
     [   "titulo" => "Emperador",
-        "comensales" => 1,
+        "num comensales" => 1,
         "tipo de plato" => "Segundo",
-        "ingredientes" => ["emperador" => "200g","salsa verde" => "10g"]
+        "ingredientes" => [
+
+        "emperador" => "200g",
+        "salsa verde" => "10g"
+        ]
 
     ]
 
